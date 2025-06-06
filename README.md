@@ -1,102 +1,55 @@
-Pixisphere Frontend Assignment
-A modern photographer booking platform built with React that connects customers with photographers for maternity, newborn, birthday, and other special shoots.
-🚀 Live Demo
-View Live Demo
-📋 Features
-Category Listing Page
+# Pixisphere Frontend Assignment
 
-Responsive Grid Layout - Clean photographer cards with essential information
-Advanced Filtering System - Price range, ratings, styles, and city filters
-Real-time Search - Search by photographer name, location, or tags
-Dynamic Sorting - Sort by rating, price (low to high), price (high to low), or recently added
-Smart Suggestions - AI-powered recommendations for better user experience
-Mobile-First Design - Fully responsive across all devices
+A sophisticated photographer booking platform developed with **React**, designed to seamlessly connect customers with professional photographers for maternity, newborn, birthday, and other specialized photography sessions.
 
-Photographer Profile Page
+---
 
-Complete Photographer Details - Name, bio, location, pricing, and ratings
-Interactive Portfolio Gallery - Image carousel with navigation controls
-Customer Reviews - Display of authentic customer feedback with ratings
-Inquiry Modal - Contact form for booking inquiries
-Responsive Design - Optimized for desktop and mobile viewing
+## 🌐 Live Demo
 
-🛠️ Tech Stack
+[https://pixisphere-connect-git-main-akanksha-guptas-projects.vercel.app/](https://pixisphere-connect-git-main-akanksha-guptas-projects.vercel.app/)
 
-Frontend: React 18 with Hooks
-State Management: Context API with useReducer
-Styling: Tailwind CSS
-Icons: Lucide React
-Build Tool: Vite/Create React App
-Deployment: Vercel/Netlify
+---
 
+## 📋 Project Overview
 
-# Getting Started with Create React App
+The application consists of two primary interfaces that form the core user experience:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 1. Category Listing Interface
 
-## Available Scripts
+- **Responsive Grid Architecture**: Optimized photographer showcase with comprehensive information display.
+- **Advanced Filtering Engine**: Multi-parameter filtering including price range, ratings, photography styles, and geographic location.
+- **Intelligent Search Functionality**: Real-time search across photographer names, locations, and specialty tags.
+- **Dynamic Content Sorting**: Configurable sorting by rating, price (ascending/descending), and recency.
+- **AI-Powered Recommendations**: Smart suggestion system for enhanced user discovery.
+- **Cross-Platform Responsive Design**: Fully optimized for desktop, tablet, and mobile experiences.
 
-In the project directory, you can run:
+### 2. Photographer Profile Interface
 
-### `npm start`
+- **Comprehensive Professional Profiles**: Complete photographer information including credentials, specializations, and pricing.
+- **Dynamic Portfolio Gallery**: Interactive image carousel with intuitive navigation controls.
+- **Customer Testimonial System**: Authenticated customer reviews with detailed ratings and feedback.
+- **Integrated Inquiry System**: Professional contact form with modal-based user interface.
+- **Adaptive Design Framework**: Consistent user experience across all device platforms.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Installation & Development Setup
 
-### `npm test`
+### System Requirements
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Node.js** (v16.0.0 or higher)  
+- **npm** (v8.0.0 or higher) or **yarn** (v1.22.0 or higher)
 
-### `npm run build`
+### Initial Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/pixisphere-frontend.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Navigate to the project directory
+cd pixisphere-frontend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Install dependencies
+npm install
+# or
+yarn install
