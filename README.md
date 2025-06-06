@@ -1,3 +1,35 @@
+Pixisphere Frontend Assignment
+A modern photographer booking platform built with React that connects customers with photographers for maternity, newborn, birthday, and other special shoots.
+🚀 Live Demo
+View Live Demo
+📋 Features
+Category Listing Page
+
+Responsive Grid Layout - Clean photographer cards with essential information
+Advanced Filtering System - Price range, ratings, styles, and city filters
+Real-time Search - Search by photographer name, location, or tags
+Dynamic Sorting - Sort by rating, price (low to high), price (high to low), or recently added
+Smart Suggestions - AI-powered recommendations for better user experience
+Mobile-First Design - Fully responsive across all devices
+
+Photographer Profile Page
+
+Complete Photographer Details - Name, bio, location, pricing, and ratings
+Interactive Portfolio Gallery - Image carousel with navigation controls
+Customer Reviews - Display of authentic customer feedback with ratings
+Inquiry Modal - Contact form for booking inquiries
+Responsive Design - Optimized for desktop and mobile viewing
+
+🛠️ Tech Stack
+
+Frontend: React 18 with Hooks
+State Management: Context API with useReducer
+Styling: Tailwind CSS
+Icons: Lucide React
+Build Tool: Vite/Create React App
+Deployment: Vercel/Netlify
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
